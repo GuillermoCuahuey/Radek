@@ -1,0 +1,27 @@
+:root{
+    --paddind-button: 17px 35px;
+}
+
+.ui-button svg{
+    width: 20px;
+    height: 20px;
+    fill: white;
+    stroke:#fff;
+}
+.ui-button {
+    display: inline-flex;
+    padding: var(--paddind-button);
+    background-color: #1F618D;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.ui-button > span:first-child{
+    margin-right: 7px;
+}
+
+.ui-button-text-only .ui-button-text {
+    padding: 0;
+}
