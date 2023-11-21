@@ -12,7 +12,7 @@
     <properties>
         <product.version>7.2.0.GA</product.version>
         <version.server.bom>7.2.0.GA</version.server.bom>
-        <version.primefaces>7.0</version.primefaces>
+        <version.primefaces>8.0</version.primefaces>
     </properties>
 
     <dependencyManagement>
